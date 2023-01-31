@@ -123,24 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &38271441 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1814621273388254125, guid: 9ce4272fc081c4fe19ac85b62fd05531, type: 3}
-  m_PrefabInstance: {fileID: 1814621274150655072}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &38271446
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 38271441}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.2020985, y: 0.41188067, z: 0.4267985}
-  m_Center: {x: 0.023475701, y: 0.17375296, z: 0.055145048}
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -344,7 +326,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 475985833}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.1, y: 0, z: 10}
+  m_LocalPosition: {x: 0.4, y: 0, z: 10}
   m_LocalScale: {x: 5, y: 1, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -601,24 +583,6 @@ MonoBehaviour:
   speed: 10
   xRange: 10
   projectilePrefab: {fileID: 1408078785105676369, guid: 3d302339184dd4acd9bc165c1664d0bf, type: 3}
---- !u!1 &1129020941 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6193465590102707952, guid: 0c88aa6ac5d3c46ea87a5172bc9c3d5c, type: 3}
-  m_PrefabInstance: {fileID: 6193465589571525993}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &1129020946
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1129020941}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 20, y: 36.911858, z: 42.290855}
-  m_Center: {x: 0, y: 17.464272, z: 3.8874936}
 --- !u!1 &1590138454
 GameObject:
   m_ObjectHideFlags: 0
@@ -947,7 +911,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4540128517108319407, guid: 196232471e1944d688ec95b2a355a1fb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.07
       objectReference: {fileID: 0}
     - target: {fileID: 4540128517108319407, guid: 196232471e1944d688ec95b2a355a1fb, type: 3}
       propertyPath: m_LocalPosition.z
